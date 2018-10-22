@@ -16,6 +16,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "es-ui": [
+        "dist/es-ui"
+      ],
+      "es-ui/*": [
+        "dist/es-ui/*"
+      ]
+    }
   }
 }

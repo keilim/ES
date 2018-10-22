@@ -1,0 +1,51 @@
+/*
+  Main
+  Created on 10/19/2018 by Keith Wei Luen Lim
+*/
+
+
+body {
+  height: 100%;
+  letter-spacing: 0.03rem;
+  overflow-x: hidden;
+}
+
+/* ++++++ Headings ++++++ */
+h1 {
+  font-size: 1.75rem;
+  padding: 0;
+  margin: 0 0 0.5rem 0;
+}
+
+h2 {
+  font-size: 1.125rem;
+  margin: 0 0 1.5rem 0;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 0 0 1.5rem 0;
+}
+
+h4 {
+  font-size: 1rem;
+  margin: 0 0 1.5rem 0;
+}
+
+h5 {
+  font-size: 1rem;
+  margin: 0 0 1rem 0;
+}
+
+/* ++++ Text Styles ++++ */
+
+p {
+  margin: 0 0 1.3125rem 0;
+}
+
+ul, ol {
+  margin: 0 0 1.3125rem 0;
+  li {
+    margin: 0 0 0.625rem 0;
+  }
+}
