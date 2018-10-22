@@ -31,5 +31,22 @@
         <app-input title="Reason" placeholder="My dog ate my card..."></app-input>
       </div>
     </div>
+    <div class="row">
+        <div class="col-sm-6"></div>
+        <div class="col-sm-3">
+          <app-button
+          title="confirm"
+          backgroundColor = "#77c646"
+          (click) = "onConfirmClick()"
+          ></app-button>
+        </div>
+        <div class="col-sm-3">
+          <app-button
+          title="cancel"
+          backgroundColor = "#D65A5A"
+          (click) = "onCancelClick()"
+          ></app-button>
+        </div>
+    </div>
   </div>
 </div>

@@ -6,17 +6,22 @@
     <h1>Your temporary card number is</h1>
   </div>
   <div class="contentRow">
-    <h1 class="numberIssued">53</h1>
+    <button
+    class="button"
+    (click)="onNumberClick();"
+    >
+      <h1 class="numberIssued">53</h1>
+    </button>
   </div>
   <div style="width: 40%; text-align: center;">
     <h1>Please wait a moment while the receptionist get the card ready for you</h1>
   </div>
-    <button class="editButton">
-      <svg width="34" height="35" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M29.7368 14.3436V31C29.7368 32.1046 28.8413 33 27.7368 33H4C2.89551 33 2 32.1046 2 31V8.45569C2 7.35114 2.89551 6.45569 4 6.45569H17.0718L19.1499 4.45569H4C1.79102 4.45569 0 6.24652 0 8.45569V31C0 33.2091 1.79102 35 4 35H27.7368C29.9458 35 31.7368 33.2091 31.7368 31V12.4187L29.7368 14.3436Z" fill="white"/>
-        <rect width="9.18828" height="16.6856" transform="matrix(0.720513 0.693441 -0.720513 0.693441 24.2056 3.10443)" fill="white"/>
-        <rect width="9.18828" height="3.87907" rx="1" transform="matrix(0.720513 0.693441 -0.720513 0.693441 27.3799 0)" fill="white"/>
-        <path d="M11.6221 15.4717V21.6638H18.0559L11.6221 15.4717Z" fill="white"/>
-      </svg>
-    </button>
+  <button class="editButton">
+    <svg width="34" height="35" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M29.7368 14.3436V31C29.7368 32.1046 28.8413 33 27.7368 33H4C2.89551 33 2 32.1046 2 31V8.45569C2 7.35114 2.89551 6.45569 4 6.45569H17.0718L19.1499 4.45569H4C1.79102 4.45569 0 6.24652 0 8.45569V31C0 33.2091 1.79102 35 4 35H27.7368C29.9458 35 31.7368 33.2091 31.7368 31V12.4187L29.7368 14.3436Z" fill="white"/>
+      <rect width="9.18828" height="16.6856" transform="matrix(0.720513 0.693441 -0.720513 0.693441 24.2056 3.10443)" fill="white"/>
+      <rect width="9.18828" height="3.87907" rx="1" transform="matrix(0.720513 0.693441 -0.720513 0.693441 27.3799 0)" fill="white"/>
+      <path d="M11.6221 15.4717V21.6638H18.0559L11.6221 15.4717Z" fill="white"/>
+    </svg>
+  </button>
 </div>

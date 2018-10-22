@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-signup',
@@ -7,9 +8,17 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class SignUpComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
+  }
+
+  onConfirmClick = function() {
+    this.router.navigateByUrl('/issuedCardStatus');
+  }
+
+  onCancelClick = function() {
+    this.router.navigateByUrl('/');
   }
 
 }
