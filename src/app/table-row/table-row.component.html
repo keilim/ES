@@ -1,0 +1,21 @@
+<tr *ngFor="let char of userHistory | async">
+  <td>
+    {{char.date}}
+  </td>
+  <td>
+    {{char.card_ID}}
+  </td>
+  <td>
+    {{char.location}}
+  </td>
+  <td>
+    {{char.reason}}
+  </td>
+  <td >
+    <i
+    class="material-icons"
+    style="color: #77C464"
+    *ngIf="char.returned"
+    >done</i>
+  </td>
+<tr>

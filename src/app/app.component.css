@@ -24,3 +24,35 @@
 .box .row.footer {
   flex: 0 1 40px;
 }
+
+.titleBox {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #1F1F1F;
+  border-bottom-color: #2B2B2B;
+  border-bottom-width:0.7rem;
+}
+
+.assignLeftTitleBox {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 3rem;
+}
+
+.profileImage {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 5rem;
+  background-size: cover;
+  margin-bottom: 1rem;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

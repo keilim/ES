@@ -1,0 +1,10 @@
+.box {
+  margin: 2rem 3rem 2rem 3rem;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
