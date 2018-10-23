@@ -1,13 +1,16 @@
 <div class = "box">
   <div class = "row header">
     <div class = "col-sm-12">
-      <!-- <h1 style="font-size: 5rem; padding: 3rem;">E.S</h1> -->
-      <div class="titleBox">
+      <h1
+        style="font-size: 5rem; padding: 3rem;"
+        *ngIf="!login"
+      >E.S</h1>
+      <div class="titleBox" *ngIf="login">
         <div>
           <h1 style="font-size: 3rem; padding: 3rem;">E.S</h1>
         </div>
         <div class="assignLeftTitleBox">
-          <h1 style="font-size: 1.5rem; padding: 3rem;">Sign out</h1>
+          <button class="titleButton" (click)="onSignOutClicked();">Sign out</button>
           <div class="profile">
             <div style="background-image: url('https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/15747436_10209915816704830_7646735091877292629_n.jpg?_nc_cat=106&_nc_ht=scontent-iad3-1.xx&oh=9d46ef1e1fa147c733207dd58982f1c2&oe=5C4EF256')"
              alt="keith"
@@ -23,7 +26,7 @@
     <!-- <app-auth></app-auth> -->
     <!-- <app-signup></app-signup> -->
     <!-- <app-card-issue-page></app-card-issue-page> -->
-    <!-- <router-outlet></router-outlet> -->
-    <app-main></app-main>
+    <router-outlet></router-outlet>
+    <!-- <app-main></app-main> -->
   </div>
 </div>

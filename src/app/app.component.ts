@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild} from '@angular/core';
+import {AuthComponent} from './auth/auth.component';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'es';
+  login: boolean = true;
+
+  constructor(private router: Router) {}
+
+  onSignOutClicked= function() {
+    this.router.navigateByUrl('/');
+  }
 }

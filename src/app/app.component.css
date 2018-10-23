@@ -50,6 +50,14 @@
   margin-bottom: 1rem;
 }
 
+.titleButton {
+  font-size: 1.5rem;
+  padding: 3rem;
+  border: 0;
+  background-color: transparent;
+  color: #FFF;
+}
+
 .profile {
   display: flex;
   justify-content: center;

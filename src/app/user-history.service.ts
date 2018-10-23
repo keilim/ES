@@ -9,6 +9,7 @@ import {USER_HISTORY} from './mock-data';
 })
 export class UserHistoryService {
 
+  private login = false;
   constructor() { }
 
   getCharacters(): Observable<any[]>{
@@ -20,5 +21,13 @@ export class UserHistoryService {
 
   getColumns(): string[] {
     return ["date", "card_ID", "location", "reason", "returned"]
+  }
+
+  getLoginStatus() {
+    return this.login;
+  }
+
+  changeLoginStatus() {
+    this.login = !this.login;
   }
 }
